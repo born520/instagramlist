@@ -1,4 +1,4 @@
-const scriptUrl = 'https://script.google.com/macros/s/AKfycbyGeQuAo4OAvkfBEbOJDGvvy0BPtPVPX8WXYdEfpImTnqRRUkkK6QBNqk3jNq46H9HK-g/exec';
+const scriptUrl = 'https://script.google.com/macros/s/AKfycbwivZFkwuOZGxIaBSH0QXtgqjShBxx9cLfPc2DsZHQjoPytnBweREV7MBbc8R4InAUC/exec';
 
 function loadEmbeds() {
     fetch(scriptUrl)
