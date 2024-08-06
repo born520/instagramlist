@@ -16,9 +16,11 @@ function loadEmbeds() {
             });
 
             // Instagram embed script reinitialization
-            if (window.instgrm) {
-                instgrm.Embeds.process();
-            }
+            setTimeout(() => {
+                if (window.instgrm) {
+                    instgrm.Embeds.process();
+                }
+            }, 1000); // 일정 시간 후에 스크립트를 다시 처리
         })
         .catch(error => {
             console.error('Error loading data:', error);
